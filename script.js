@@ -1,5 +1,4 @@
-/**
- * Created by HSommer on 4/3/2017.
- */
 
-console.log('Hello WOrld');
+console.log('Hello WOrld');/**
+ * Created by hopes on 4/3/2017.
+ */

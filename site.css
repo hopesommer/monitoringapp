@@ -42,6 +42,16 @@ body, html {
     line-height:72px;
     margin: auto;
 }
+.status-indicator-alert {
+    background-color: red;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    line-height:72px;
+    margin: auto;
+}
 .container {
     padding-top: 40px;
 }
@@ -63,7 +73,7 @@ body, html {
 }
 .button.ok {
     border-color: #22B573;
-   color: #22B573;
+    color: #22B573;
 }
 .actions {
     display: flex;
@@ -72,3 +82,47 @@ body, html {
 .actions .button {
     margin: 0 25px;
 }
+.alarm-actions {
+    display: flex;
+    justify-content: center;
+}
+.alarm-actions .button {
+    margin: 0 25px;
+}
+.button.emergency {
+    border-color: red;
+    background-color: white;
+}
+.button.phone {
+    border-color: red;
+    background-color: white;
+}
+.button.history {
+    border-color: red;
+    background-color: white;
+}
+.button.video {
+    border-color: red;
+    background-color: white;
+}
+.events {
+    display: flex;
+    justify-content: center;
+}
+.events .button {
+    margin: 0 125px;
+}
+.button.search {
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+.button.clear {
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    font-weight: normal;
+}
+.video-frame {
+    display: flex;
+    justify-content: center;
+}
+
